@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 import { RxCross1 } from "react-icons/rx";
 import logo from "../assets/logo-transparent.png";
 
@@ -10,6 +10,11 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleNavClick = () => {
+    setIsMenuOpen(false);
+    window.scrollTo(0, 0); 
   };
 
   return (
@@ -43,11 +48,7 @@ const Navbar = () => {
             { name: "Contact", path: "/contact" },
           ].map(({ name, path }) => (
             <li key={name} className="navbar-item">
-              <Link
-                to={path} 
-                className="navbar-link"
-                onClick={() => setIsMenuOpen(false)}
-              >
+              <Link to={path} className="navbar-link" onClick={handleNavClick}>
                 {name}
               </Link>
             </li>
