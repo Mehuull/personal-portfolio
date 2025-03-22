@@ -5,8 +5,6 @@ import SDJlogo from "../../assets/SDJlogo.jpeg";
 import TTVlogo from "../../assets/T&TV.png";
 
 const Education = () => {
-
-
   return (
     <>
       <div
@@ -29,13 +27,19 @@ const Education = () => {
 
         {/**container1  */}
         <div className="sub-container">
-          <div className="education-logo" data-aos="flip-left"
-            data-aos-duration="3000">
+          <div
+            className="education-logo"
+            data-aos="flip-left"
+            data-aos-duration="3000"
+          >
             <img src={SDJlogo} alt="SDJ Logo" />
           </div>
 
-          <div className="education-card" data-aos="fade-left"
-            data-aos-duration="3000" >
+          <div
+            className="education-card"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
             <div className="education-header">
               <h2>SDJ International College, Vesu, Surat.</h2>
               <p className="education-duration">Sep 2023 - 2027</p>
@@ -69,13 +73,19 @@ const Education = () => {
 
         {/**container2  */}
         <div className="sub-container">
-          <div className="education-logo"data-aos="flip-left"
-            data-aos-duration="3000">
+          <div
+            className="education-logo"
+            data-aos="flip-left"
+            data-aos-duration="3000"
+          >
             <img src={TTVlogo} alt="T&TV Logo" />
           </div>
 
-          <div className="education-card"  data-aos="fade-left"
-            data-aos-duration="3000" >
+          <div
+            className="education-card"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
             <div className="education-header">
               <h2> T. & T. V. Sarvajanik Vidyalaya</h2>
               <p className="education-duration">July 2021 - 2023</p>

@@ -15,21 +15,21 @@ import ExpressJsLogo from "../../assets/ExpressLogo.png";
 import CanvaLogo from "../../assets/CanvaLogo.png";
 import FigmaLogo from "../../assets/FigmaLogo.png";
 
-
-
-
 const Home = () => {
   return (
     <>
-      <div className="home-container" data-aos="fade-down"
-            data-aos-duration="2500">
+      <div
+        className="home-container"
+        data-aos="fade-down"
+        data-aos-duration="2500"
+      >
         <div className="home-content">
           <p className="greeting">Hello, I'm</p>
           <h2 className="name">Mehul Rana</h2>
           <h2 className="role">Full-Stack Developer</h2>
           <p className="description">
-            With knowledge in web development and design, I offer 
-            the best projects resulting in quality work.
+            With knowledge in web development and design, I offer the best
+            projects resulting in quality work.
           </p>
 
           <div class="social-buttons">
@@ -74,7 +74,7 @@ const Home = () => {
             </a>
           </div>
 
-          <button className="resume">see my resume</button>
+          <button className="resume"><a href="https://drive.google.com/file/d/1KHFAcMeJgdgHLwjrUsk1hw-4IcLBJIB5/view?usp=drivesdk">see my resume</a></button>
         </div>
 
         <div className="home-image">

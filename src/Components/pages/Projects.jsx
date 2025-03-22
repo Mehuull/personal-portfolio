@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css"; // Make sure to copy the CSS into this file
+import "./Projects.css";
 import Cakeshop from "../../assets/CAKESHOP.png";
 import Fruto from "../../assets/FRUTO.png";
 import FoodieChamp from "../../assets/FOODIECHAMP WEBSITE.png";
@@ -30,7 +30,7 @@ const projects = [
       "Fully animated A Food Restaurant Website using html,css and javascript.",
     image: FoodieChamp,
   },
-  
+
   {
     id: 4,
     title: "E-Learning",
@@ -68,7 +68,9 @@ const Projects = () => {
       </div>
 
       <h3 data-aos="fade-down" data-aos-duration="1000">
-      | I am skilled in using modern web development technologies to build and deploy responsive web applications. I focus on integrating innovative tools and frameworks to create user-friendly and efficient solutions.
+        | I am skilled in using modern web development technologies to build and
+        deploy responsive web applications. I focus on integrating innovative
+        tools and frameworks to create user-friendly and efficient solutions.
       </h3>
       <ul className="cards">
         {projects.map((project) => (
@@ -80,7 +82,7 @@ const Projects = () => {
               <div className="card_content">
                 <h2 className="card_title">{project.title}</h2>
                 <p className="card_text">{project.description}</p>
-                <button className="btn card_btn">Read More</button>
+                <a className="btn card_btn" href="https://github.com/Mehuull?tab=repositories">Read More</a>
               </div>
             </div>
           </li>

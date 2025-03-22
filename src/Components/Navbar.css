@@ -24,7 +24,7 @@
   align-items: center;
   cursor: pointer;
 }
-.navbar-logo img{
+.navbar-logo img {
   height: 4rem;
   width: auto;
   object-fit: cover;
