@@ -68,7 +68,7 @@ const Projects = () => {
       </div>
 
       <h3 data-aos="fade-down" data-aos-duration="1000">
-        | I am skilled in using modern web development technologies to build and
+       I am skilled in using modern web development technologies to build and
         deploy responsive web applications. I focus on integrating innovative
         tools and frameworks to create user-friendly and efficient solutions.
       </h3>
