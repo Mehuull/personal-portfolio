@@ -42,7 +42,7 @@ const Home = () => {
             </a>
 
             <a
-              href="hhttps://www.linkedin.com/in/mehul-rana-904b54340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              href="https://www.linkedin.com/in/mehul-rana-904b54340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               class="social-button social-button--linkedin"
               aria-label="LinkedIn"
             >
