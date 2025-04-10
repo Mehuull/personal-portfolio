@@ -88,7 +88,7 @@ const Projects = () => {
           </li>
         ))}
       </ul>
-      <h3 className="made_by">Made with 🧡 By MEHᏬL RANA</h3>
+      <h3 className="made_by">Made with 🧡 By MEHUL RANA</h3>
     </div>
   );
 };
