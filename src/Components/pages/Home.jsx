@@ -74,7 +74,7 @@ const Home = () => {
             </a>
           </div>
 
-          <button className="resume"><a href="https://drive.google.com/file/d/1KHFAcMeJgdgHLwjrUsk1hw-4IcLBJIB5/view?usp=drivesdk">see my resume</a></button>
+          <button className="resume"><a href="https://drive.google.com/file/d/1VUnx-RPHmDAVV0HDN8bP4my0-23CyLmu/view?usp=drivesdk">see my resume</a></button>
         </div>
 
         <div className="home-image">
