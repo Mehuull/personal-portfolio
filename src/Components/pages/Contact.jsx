@@ -104,11 +104,14 @@ const Contact = () => {
           )}
         </div>
       </div>
-      <div className="Contact-message">
+      <div className="Contact-message"  data-aos="fade-down"
+        data-aos-duration="1000">
         I am available on almost every social media. You can message me, I will
         reply within 24 hours. I can help you with React, Next, Web Development.
       </div>
-      <div class="social-buttons">
+      <div class="social-buttons"
+       data-aos="fade-down"
+       data-aos-duration="1000">
         <a
           href="https://github.com/Mehuull"
           class="social-button social-button--github"
