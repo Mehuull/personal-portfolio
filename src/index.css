@@ -6,6 +6,7 @@
 @import url('https://fonts.cdnfonts.com/css/made-kenfolg');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/smile-of-the-ocean');
 
 :root {
   --color0: #51c9a5;
@@ -30,6 +31,7 @@
   --font-family-5: "poppins", serif;
   --font-family-6: 'MADE Kenfolg', sans-serif;
   --font-family-7: "Parkinsans", sans-serif;
+  --font-family-8:'Smile of the Ocean', sans-serif;
  
                                                 
                                                 
