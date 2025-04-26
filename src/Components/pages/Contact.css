@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 2rem;
   background-color: var(--primary-color);
 }
@@ -33,7 +34,14 @@
   max-width: 100%;
   height: auto;
 }
-
+.Contact-message{
+  font-family: var(--font-family-5);
+  font-size: larger;
+  height: auto;
+  max-width: 1000px;
+  text-align: center;
+  padding: 1.6rem;
+}
 .contact-form {
   flex: 1;
   padding: 2rem;

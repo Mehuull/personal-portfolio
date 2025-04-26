@@ -104,6 +104,51 @@ const Contact = () => {
           )}
         </div>
       </div>
+      <div className="Contact-message">
+        I am available on almost every social media. You can message me, I will
+        reply within 24 hours. I can help you with React, Next, Web Development.
+      </div>
+      <div class="social-buttons">
+        <a
+          href="https://github.com/Mehuull"
+          class="social-button social-button--github"
+          aria-label="GitHub"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/mehul-rana-904b54340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          class="social-button social-button--linkedin"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a
+          href="https://www.instagram.com/m3huul_10/#"
+          class="social-button social-button--instagram"
+          aria-label="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a
+          href="https://api.whatsapp.com/send?phone=919586298992"
+          class="social-button social-button--whatsapp"
+          aria-label="WhatsApp"
+        >
+          <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <a
+          href="https://linktr.ee/mehuul"
+          class="social-button social-button--Email"
+          aria-label="Email"
+        >
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
+      </div>
     </section>
   );
 };
