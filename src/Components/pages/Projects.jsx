@@ -6,7 +6,7 @@ import FoodieChamp from "../../assets/FOODIECHAMP WEBSITE.png";
 import projectimg from "../../assets/projectsvector2.png";
 import myportfolio from "../../assets/myportfolio.png";
 import elearning from "../../assets/E-LEARNING.png";
-import Weatherapp from "../../assets/wheatherapp.png";
+import HomeScape from "../../assets/HomeScape.png";
 
 const projects = [
   {
@@ -45,13 +45,14 @@ const projects = [
   },
   {
     id: 6,
-    title: "Simple Weather App",
-    description: "Wheather app for fatching weather data from weather API",
-    image: Weatherapp,
+    title: "HomeScape Real Estate",
+    description: "A Full stack real estate app with features of authentication, property listing with AI Integration, profile editing and Search optimization.",
+    image: HomeScape,
   },
 ];
 
 const Projects = () => {
+  const reversedProjects = [...projects].reverse();
   return (
     <div className="main">
       <div
@@ -73,7 +74,7 @@ const Projects = () => {
         tools and frameworks to create user-friendly and efficient solutions.
       </h3>
       <ul className="cards">
-        {projects.map((project) => (
+        {reversedProjects.map((project) => (
           <li key={project.id} className="cards_item">
             <div className="card" data-aos="fade-down" data-aos-duration="2000">
               <div className="card_image">
